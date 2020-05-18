@@ -1,0 +1,38 @@
+{
+    "type": "package",
+    "name": "rl-king/elm-iso3166-country-codes",
+    "summary": "Convert to and from alpha2, alpha3, id and country names in 23 languages",
+    "license": "BSD-3-Clause",
+    "version": "1.0.0",
+    "exposed-modules": [
+        "Iso3166",
+        "Iso3166.Arabic",
+        "Iso3166.Chinese",
+        "Iso3166.Czech",
+        "Iso3166.Danish",
+        "Iso3166.German",
+        "Iso3166.English",
+        "Iso3166.Greek",
+        "Iso3166.Spanish",
+        "Iso3166.Estonian",
+        "Iso3166.French",
+        "Iso3166.Hungarian",
+        "Iso3166.Italian",
+        "Iso3166.Japanese",
+        "Iso3166.Lithuanian",
+        "Iso3166.Dutch",
+        "Iso3166.Norwegian",
+        "Iso3166.Polish",
+        "Iso3166.Portguese",
+        "Iso3166.Romanian",
+        "Iso3166.Rusian",
+        "Iso3166.Slovak",
+        "Iso3166.Thai",
+        "Iso3166.Ukranian"
+    ],
+    "elm-version": "0.19.0 <= v < 0.20.0",
+    "dependencies": {
+        "elm/core": "1.0.0 <= v < 2.0.0"
+    },
+    "test-dependencies": {}
+}

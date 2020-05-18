@@ -1,0 +1,34 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: a43abb1c672c1e4d2aea0e2c5dca999e630783308ba5a18f619e4556a7a37d69
+
+name:           elm-iso3166
+version:        0.1.0.0
+category:       Web
+homepage:       https://github.com/rl-king/elm-iso3166#readme
+author:         Ruben Lie King
+maintainer:     hello@rubenlieking.com
+copyright:      2020 Ruben Lie King
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+executable elm-iso3166
+  main-is: Main.hs
+  other-modules:
+      Paths_elm_iso3166
+  hs-source-dirs:
+      generate
+  build-depends:
+      aeson
+    , base >=4.7 && <5
+    , directory
+    , filepath
+    , text
+  default-language: Haskell2010

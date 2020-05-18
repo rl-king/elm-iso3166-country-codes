@@ -1,0 +1,24 @@
+name:                elm-iso3166
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/rl-king/elm-iso3166#readme
+license:             BSD3
+author:              Ruben Lie King
+maintainer:          hello@rubenlieking.com
+copyright:           2020 Ruben Lie King
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - aeson
+  - directory
+  - filepath
+  - text
+
+executables:
+  elm-iso3166:
+    source-dirs:      generate
+    main:             Main.hs
