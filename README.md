@@ -27,6 +27,12 @@ translated =
 --> "Nederland"
 ```
 
+## Asset size
+Note that using this package might increase asset size a quite a bit.
+Using `toAlpha2` and one `toName` adds about 2kB to a uglified + gzipped js file.
+
+It's just data and this might not be required to be bundled and could easily be fetched over http.
+
 ## Credits
 
 All modules are generated with data provided by [stefangabos/world_countries](https://github.com/stefangabos/world_countries)
