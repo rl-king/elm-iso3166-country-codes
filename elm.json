@@ -23,12 +23,12 @@
         "Iso3166.Dutch",
         "Iso3166.Norwegian",
         "Iso3166.Polish",
-        "Iso3166.Portguese",
+        "Iso3166.Portuguese",
         "Iso3166.Romanian",
-        "Iso3166.Rusian",
+        "Iso3166.Russian",
         "Iso3166.Slovak",
         "Iso3166.Thai",
-        "Iso3166.Ukranian"
+        "Iso3166.Ukrainian"
     ],
     "elm-version": "0.19.0 <= v < 0.20.0",
     "dependencies": {

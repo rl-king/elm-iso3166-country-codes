@@ -51,12 +51,12 @@ main =
             ("nl", "Dutch"),
             ("no", "Norwegian"),
             ("pl", "Polish"),
-            ("pt", "Portguese"),
+            ("pt", "Portuguese"),
             ("ro", "Romanian"),
-            ("ru", "Rusian"),
+            ("ru", "Russian"),
             ("sk", "Slovak"),
             ("th", "Thai"),
-            ("uk", "Ukranian")
+            ("uk", "Ukrainian")
           ]
 
 generateModule :: FilePath -> FilePath -> ([Country] -> Builder) -> IO ()
