@@ -3,7 +3,7 @@
     "name": "rl-king/elm-iso3166-country-codes",
     "summary": "Convert to and from alpha2, alpha3, id and country names in 23 languages",
     "license": "BSD-3-Clause",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "exposed-modules": [
         "Iso3166",
         "Iso3166.Arabic",
