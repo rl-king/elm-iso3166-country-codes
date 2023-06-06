@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "elm-pages": "^3.0.3"
+  },
+  "scripts": {
+    "generate": "elm-pages run Generate"
+  }
+}
