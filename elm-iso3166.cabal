@@ -1,11 +1,5 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.33.0.
---
--- see: https://github.com/sol/hpack
---
--- hash: a43abb1c672c1e4d2aea0e2c5dca999e630783308ba5a18f619e4556a7a37d69
-
 name:           elm-iso3166
 version:        0.1.0.0
 category:       Web
