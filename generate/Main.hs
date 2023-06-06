@@ -27,15 +27,14 @@ main :: IO ()
 main =
   let languageModule_ a b =
         generateModule
-          ("world_countries/data/" </> a </> "world.json")
+          ("world_countries/data/countries/" </> a </> "world.json")
           ("Iso3166" </> b)
           (languageModule (Builder.fromText (Text.pack b)))
    in do
-        generateModule "world_countries/data/en/world.json" "Iso3166" mainModule
+        generateModule "world_countries/data/countries/en/world.json" "Iso3166" mainModule
         mapM_
           (uncurry languageModule_)
           [ ("ar", "Arabic"),
-            ("cn", "Chinese"),
             ("cs", "Czech"),
             ("da", "Danish"),
             ("de", "German"),
@@ -56,7 +55,8 @@ main =
             ("ru", "Russian"),
             ("sk", "Slovak"),
             ("th", "Thai"),
-            ("uk", "Ukrainian")
+            ("uk", "Ukrainian"),
+            ("zh", "Chinese")
           ]
 
 generateModule :: FilePath -> FilePath -> ([Country] -> Builder) -> IO ()
