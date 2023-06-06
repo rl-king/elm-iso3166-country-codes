@@ -33,6 +33,10 @@ Using `toAlpha2` and one `toName` adds about 2kB to a uglified + gzipped js file
 
 It's just data and this might not be required to be bundled and could easily be fetched over http.
 
+## Generate
+
+Clone [stefangabos/world_countries](https://github.com/stefangabos/world_countries) into this repo, run `cabal run elm-iso3166` to generate Elm files.
+
 ## Credits
 
 All modules are generated with data provided by [stefangabos/world_countries](https://github.com/stefangabos/world_countries)
