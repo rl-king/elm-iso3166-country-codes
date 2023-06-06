@@ -1,14 +1,12 @@
-{-# LANGUAGE LambdaCase #-}
 {-# LANGUAGE OverloadedStrings #-}
-{-# LANGUAGE ScopedTypeVariables #-}
 
 -- | Generate Elm files
 --
 -- Data provided by https://github.com/stefangabos/world_countries
 module Main where
 
-import qualified Data.Aeson as Aeson
 import Data.Aeson ((.:))
+import qualified Data.Aeson as Aeson
 import qualified Data.Either as Either
 import qualified Data.List as List
 import Data.Text (Text)
