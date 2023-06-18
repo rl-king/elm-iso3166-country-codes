@@ -8,7 +8,7 @@ module Iso3166.Chinese exposing (toName)
 
 import Iso3166 exposing (..)
 
-{-| Name for `CountryCode` in Chinese.
+{-| Name for `CountryCode` in Chinese (Simplified).
 
 ```
 AD "安道尔"
